@@ -1,0 +1,6 @@
+body{
+    background-image: var(--img-body);
+    background-size: cover; 
+    background-color: var(--bg-color); 
+}
+

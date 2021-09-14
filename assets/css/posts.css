@@ -1,0 +1,33 @@
+.posts{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.posts .post , .aposts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    
+    
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+.posts img{
+    width: 100%;
+    border-radius:10px;
+}
+.posts .titulo{
+    margin: 32px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px ;
+    color: var(--cor-bg-1);
+}
+
+

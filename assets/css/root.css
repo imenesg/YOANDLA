@@ -1,0 +1,33 @@
+:root{
+    --cor-bg-1: /*#005CA2*/#9e0031;
+    --cor-bg-2: /*#00AD63*/#000000;
+    --cor-bg-3: /*#0000B0*/#000000;
+    --cor-bg-4: /*#005ca2b0*/#19323c;
+    --cor-bg-branca: #fff;
+    --cor-bg-preta: #000;
+    --bg-color:unset;
+
+
+    --img-body: url(../img/fundobody.svg);
+
+}
+.escuro:root{
+    /*--cor-bg-1: #cccccc;*/
+    --cor-bg-2: #ffffff;
+    /*--cor-bg-3: #0000B0;*/
+    --cor-bg-4: #ffffff9d;
+    /*--cor-bg-branca: #fff;*/
+    --cor-bg-preta: rgb(202, 202, 202);
+    --bg-color:rgb(54, 54, 54);
+
+    --img-body: unset;
+
+}
+.container{
+    padding: 0 30px;
+    min-height: calc(100vh - 20.75rem);
+}
+a{
+    text-decoration: none;
+    color: unset;
+}

@@ -1,0 +1,111 @@
+ .container{
+    padding: 0 30px 0 30px;
+    width: 100%;
+    
+}
+.materia .imgtopo{
+    width: 100%;
+    min-height:380px ;
+    max-height: 400px;
+
+    object-fit: cover;
+} 
+.materia h2{
+    color: var(--cor-bg-preta);
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2em;
+} 
+.materia p{
+    color: var(--cor-bg-preta);
+    padding: 0 40px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align: center;
+}
+.img-container{
+    width: 80%;
+    min-height:380px ;
+    max-height: 400px;
+    display: block;
+    margin: 2rem auto;
+
+    object-fit: cover;
+} 
+.mapa-local{
+    width:400px;
+    height:400px;
+    margin: auto;
+    border-radius: 10px;
+}
+.materia ul{
+    
+    max-width: 580px;
+    margin: 0 auto;
+
+}
+.materia ul li{
+    font-size: 1.1rem;
+    margin: .5rem;
+    text-align: center;
+
+}
+.e-mail{
+    color: var(--cor-bg-2);
+    text-decoration: underline;
+}
+.materia ul li::before{
+    content: "*";
+    font-size: 1em;
+    
+    font-family: 'Material Icons';
+    color: #00AD63;
+
+}
+.materia .container{
+    
+} 
+.autor-artigo {
+   margin-top: 1rem;
+}
+.autor-artigo a{
+    color: var(--cor-bg-preta);/*dsdsdsdsdsdsdsd*/
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: unset;
+}
+.autor-artigo .rosto-autor{
+    width: 3.12rem;
+    height:3.12rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.autor-artigo .nome-autor{
+    color: var(--cor-bg-preta);
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .materia p{
+        padding: 0 0;
+        font-size: 1.1em;
+        line-height: 1.2em;
+        
+    } 
+    .img-container{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 2rem auto;
+    
+        
+        
+    } 
+    .mapa-local{
+        width:250px;
+        height:250px;
+        margin: auto;
+        border-radius: 10px;
+    }
+  }
