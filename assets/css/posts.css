@@ -2,6 +2,7 @@
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+
 }
 .posts .post , .aposts{
     display: flex;
@@ -9,9 +10,9 @@ flex-wrap: wrap;
     align-items: center;
     width: 30%;
     min-width: 300px;
-    height: auto;
     
     
+
     margin-right: 1.5%;
     margin-left: 1.5%;
     margin-top: 20px;
@@ -21,7 +22,9 @@ flex-wrap: wrap;
 }
 .posts img{
     width: 100%;
+    
     border-radius:10px;
+    border: 3px solid var(--cor-bg-1);
 }
 .posts .titulo{
     margin: 32px 0;
