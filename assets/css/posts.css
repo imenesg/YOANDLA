@@ -21,8 +21,9 @@ flex-wrap: wrap;
     
 }
 .posts img{
-    width: 100%;
-    
+    width: 294px;
+    height: 196px;
+    object-fit: cover;
     border-radius:10px;
     border: 3px solid var(--cor-bg-1);
 }
